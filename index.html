@@ -5,80 +5,63 @@
 <head>
   <meta charset="UTF-8">
   <title>Suhaib Kiani - Webpage</title>
-  <link rel="stylesheet" href=styles.css>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
 
-    
 <div class="container">
-<!-- 
-      <p class="skSans2"><strong> This Webpage is still essentially 'coming together'... so do enjoy a scroll through it and reach out if you have any comments! </strong>.</p> -->
 
     <h1>Suhaib Masood Kiani</h1>
 
-   <p><strong>data scientist | investment analyst | musician | photographer | offroad racer </strong>.</p>
-  
+    <p><strong>AI builder | data scientist | investment analyst | musician | photographer | offroad racer</strong></p>
 
-    <div class="col-md-4 themed-grid-col">    
-        <!-- <img width="500" src=https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/66431_10150791510252619_275297331_n.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=3V3sE4hs9UAAX_SEnuK&_nc_ht=scontent-lga3-1.xx&oh=89c6e68bb93c6f7155ca851627f2ffa9&oe=5EC981D6
-        id="fj" class=j  ></img> -->
-        <img width="700" src=https://github.com/Suhaib471/Suhaib471.github.io/blob/master/cover%20pic.jpg?raw=true        id="fj" class=j  ></img>
-            </div>
+    <div class="col-md-4 themed-grid-col">
+        <img width="700" src="cover%20pic.jpg" alt="Suhaib Kiani cover photo" id="fj" class="j">
+    </div>
     <br>
 
-    </div.b>  
-    <p class="skSans2">"“The mind is furnished with ideas by experience alone” –   John Locke" </p>
+    <p class="skSans2">"The mind is furnished with ideas by experience alone." – John Locke</p>
     <hr class="my-4">
-    </div.b>
 
-  </div.a>
+    <p><strong>AI &amp; Agentic Systems</strong></p>
+    <p class="skSans3">1. <strong>CREE Prospector</strong>: Built and deployed a Python and Claude API application that screens concessions for critical minerals and rare earth elements from multispectral satellite data, and generates ranking decks with AI commentary. It has screened 20+ concessions to date.</p>
+    <p class="skSans3">2. <strong>Agentic RAG Review</strong>: Added a Claude tool-use agent that ranks each new target against a database of all past runs. It retrieves earlier commentary and returns a structured verdict with cited sources.</p>
+    <p class="skSans3">3. <strong>Guardrails for Auditable AI</strong>: Made the agent's output safe for investor-facing decks. Every number is checked against tool results, citations are kept only if a tool returned them, and every tool call is traced. These checks caught a distance error (5.6 vs 5.9 km) in the first live run.</p>
+    <p class="skSans3">4. <strong>Build vs Buy for Open-Weight Models</strong>: Costed hosting open-weight vision models (Qwen3-VL) on AWS Bedrock, SageMaker and EC2/EKS against managed APIs, and designed an evaluation against existing output.</p>
+
     <p><strong>Data Science Project Portfolio</strong></p>
-    <p class="skSans3">1. Mertium.com (IBM Watson based NLP model for aggregating news headlines and customer behaviour analysis and algorithm configuration);</p>
-    <p class="skSans3">2. Random Forest Classifier prediction for Spotify Song Popularity using audio features and analysis;</p>
-    <p class="skSans3">3. Regression & Classification models for prediction of Brooklyn Housing Prices based on feature engineering a large public transaction dataset;</p>
-    <p class="skSans3">4. Logistic Regression model for fraud detection in commercial bank credit card transaction dataset;</p>
-    <p class="skSans3">5. Full Stack visualization (d3/Flask/mongoDB) of Boston City data to analyse impact of yearly student influx during September/October; </p>
-    <p class="skSans3">6. Innonation.pk (healthcare, digital development solutions for Covid-19 predictive analysis and contact tracing)</p>
-    <p class="skSans3">7. Reebonz (optimizing recommendation engine for online retail customer base of  over 6 million members)</p>
+    <p class="skSans3">1. <strong>Brooklyn Housing Price Prediction</strong>: Engineered features from a large public dataset of Brooklyn property sales and built regression and classification models to predict sale prices.</p>
+    <p class="skSans3">2. <strong>Mertium.com</strong>: Built an NLP model on IBM Watson that pulls together news headlines and analyses customer behaviour, and configured the algorithm behind it.</p>
+    <p class="skSans3">3. <strong>Spotify Song Popularity</strong>: Trained a Random Forest classifier to predict a song's popularity from its audio features, and analysed which features drive it.</p>
+    <p class="skSans3">4. <strong>Boston Student Influx Visualization</strong>: Built a full-stack visualization (D3, Flask, MongoDB) of Boston city data showing how the yearly student influx in September and October affects the city.</p>
 
-    <p><strong>Data Analysis & Financial Valuations</strong></p>
-    <p class="skSans3">1. Reebonz (Financial Valuation and Operation and financial data analysis for successful NASDAQ Listing )</p>
-    <p class="skSans3">2. Valuation of US$2.3 bln shale gas portfolio of Chesapeake Energy using probabilistic modeling of exploration and production potential for Statoil; </p>
-    <p class="skSans3">3. Data Room Management and Valuation of oil and gas portfolio of Pakistan national oil companies for Merrill Lynch led privatisation.</p>
-    <p class="skSans3">4. Data analysis and Valuation of Coal power plants of diversified German conglomerate for Eur 2.3 bln sale to European PE fund </p>
-    <p class="skSans3">5. Sale analysis and Valuation of Dalma Drilling oil rig business acquired by Aabar Petroleum</p>
+    <p><strong>Data Analysis &amp; Financial Valuations</strong></p>
+    <p class="skSans3">1. <strong>Reebonz NASDAQ Listing</strong>: Built the financial valuation and analysed operating and financial data in support of Reebonz's successful NASDAQ listing.</p>
+    <p class="skSans3">2. <strong>Chesapeake Energy Shale Gas Portfolio</strong>: Valued a US$2.3 bn shale gas portfolio for Statoil, using probabilistic models of its exploration and production potential.</p>
+    <p class="skSans3">3. <strong>Pakistan Oil &amp; Gas Privatisation</strong>: Managed the data room and valued the oil and gas portfolio of Pakistan's national oil companies for a Merrill Lynch-led privatisation.</p>
+    <p class="skSans3">4. <strong>German Coal Power Plant Sale</strong>: Analysed data on and valued the coal power plants of a diversified German conglomerate for their €2.3 bn sale to a European PE fund.</p>
 
-    <p><strong>Automotive and Motorsports</strong></p>
-    <p class="skSans3">1. Engine data management and electronics re-configuration for Toyota 1UZ V8 engine for racing application </p>
-    <p class="skSans3">2. Geo-spatial data mapping and real time GPS data management for rally navigation and tracking  </p>
-    
-    <p><strong>Music & Podcasting</strong></p>
-    <p class="skSans3">1. Developed Tenserflow model using google Magenta DDSM library for raga prediction in Indian Classical Music</p>
-    <p class="skSans3">2. Launched and managed youtube podcast for arts, artifical intelligence and mixed martial arts topics</p>
+    <p><strong>Automotive &amp; Motorsports</strong></p>
+    <p class="skSans3">1. <strong>Toyota 1UZ V8 Race Engine</strong>: Managed engine data and reconfigured the electronics to adapt a Toyota 1UZ V8 for racing.</p>
+    <p class="skSans3">2. <strong>Rally Navigation &amp; Tracking</strong>: Mapped geospatial data and managed real-time GPS data for rally navigation and tracking.</p>
 
+    <p><strong>Music &amp; Podcasting</strong></p>
+    <p class="skSans3">1. <strong>Raga Prediction in Indian Classical Music</strong>: Built a TensorFlow model using Google Magenta's DDSP library to predict ragas.</p>
+    <p class="skSans3">2. <strong>YouTube Podcast</strong>: Launched and ran a YouTube podcast covering the arts, artificial intelligence and mixed martial arts.</p>
 
     <br>
 
-    <a class="skSans3">email: </a> <a href="suhaibkiani@gmail.com"> suhaibkiani@gmail.com</a> 
-    <a class="skSans3">linkedIn: </a> <a href="https://www.linkedin.com/in/suhaibkiani/"> https://www.linkedin.com/in/suhaibkiani/</a> 
-    <a class="skSans3">GitHub: </a> <a href="https://github.com/Suhaib471"> https://github.com/Suhaib471</a> 
-    <a class="skSans3">twitter: </a> <a href="https://twitter.com/SuhaibKiani"> https://twitter.com/SuhaibKiani</a> 
+    <span class="skSans3">email: </span> <a href="mailto:suhaibkiani@gmail.com">suhaibkiani@gmail.com</a>
+    <span class="skSans3">linkedIn: </span> <a href="https://www.linkedin.com/in/suhaibkiani/">https://www.linkedin.com/in/suhaibkiani/</a>
+    <span class="skSans3">GitHub: </span> <a href="https://github.com/Suhaib471">https://github.com/Suhaib471</a>
+    <span class="skSans3">twitter: </span> <a href="https://twitter.com/SuhaibKiani">https://twitter.com/SuhaibKiani</a>
 
+    <br>
 
-
-  </div>
-  <br>
-
-</div.a>
-
-<!-- <div class="col-md-12 themed-grid-col">     -->
+</div>
 
 </body>
 
-
-
 </html>
-
-
